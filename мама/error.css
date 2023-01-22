@@ -1,0 +1,32 @@
+.mark{
+    color:violet; font-size: 150px;
+        padding-bottom: 80px;
+        padding-left: 120px;
+        padding-right:120px;
+        padding-top:80px;
+        margin:20px
+        }
+.text{
+    color:pink; font-size: 35px;    margin: 40px auto 0; font-weight: bolder;
+}
+body{
+    background-image: url(2.png);
+background-size: cover;
+background-attachment: fixed;
+font-family: Arial, Helvetica, sans-serif;
+}
+a.but {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(255, 0, 204);
+    box-shadow: 0 -3px rgb(118, 0, 106) inset;
+    transition: 0.2s;
+  } 
+  a.but:hover { background: rgb(109, 1, 125); }
+  a.but:active {
+    background: rgb(217, 0, 255);
+    box-shadow: 0 3px rgb(175, 2, 155) inset;
+  }
